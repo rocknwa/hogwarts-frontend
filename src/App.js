@@ -131,8 +131,8 @@ function App() {
         });
         window.ethereum.enable().then((accounts) => {
           setAccount(accounts[0]);
-          const hogwartsAddress = "0x2d633B99b097FF4016B15d3efFd8d644f348a913";
-        const randomHouseAddress = "0x16d542B3A1ba3db67bB5dA1D8800984189f2E5a8";
+          const hogwartsAddress = "0xCFef15e7Ec22594c857b8c7A33124e30505F0522";
+        const randomHouseAddress = "0x076357F77321E361cD86F5e9AbD343D330508Fbc";
 
           const hogwartsInstance = new web3.eth.Contract(HogwartsNFT.abi, hogwartsAddress);
           const randomHouseInstance = new web3.eth.Contract(RandomHouseAssignment.abi, randomHouseAddress);
